@@ -1,0 +1,33 @@
+[versions]
+agp = "8.7.2"                      # Versión del plugin de Gradle para Android
+kotlin = "1.9.24"                  # Versión de Kotlin
+coreKtx = "1.15.0"                 # Versión de la librería androidx.core
+junit = "4.13.2"                   # Versión de JUnit para pruebas unitarias
+junitVersion = "1.2.1"             # Versión de androidx.test.ext.junit
+espressoCore = "3.6.1"             # Versión de Espresso para pruebas UI
+appcompat = "1.7.0"                # Versión de androidx.appcompat
+material = "1.12.0"                # Versión de Material Design
+activity = "1.9.3"                 # Versión de androidx.activity
+constraintlayout = "2.2.0"         # Versión de ConstraintLayout
+androidx-cardview = "1.0.0"        # Versión de CardView
+androidx-recyclerview = "1.3.2"    # Versión de RecyclerView
+glide = "4.15.1"                   # Versión de Glide
+glideCompiler = "4.15.1"           # Versión del compilador de Glide
+
+[libraries]
+androidx-cardview = { module = "androidx.cardview:cardview", version.ref = "androidx-cardview" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "androidx-recyclerview" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glideCompiler" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Comunidades Autónomas</string>
+    <string name="menu_recargar">Recargar</string>
+    <string name="menu_limpiar">Limpiar</string>
+    <string name="autonomia_image">Imagen de la autonomía</string>
+
+
+</resources>

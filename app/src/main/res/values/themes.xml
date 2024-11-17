@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="Base.Theme.U2_PracticaVistasAvanzadas" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Color de la barra de estado (batería y hora) -->
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:windowLightStatusBar">true</item> <!-- true para iconos oscuros -->
+
+        <!-- Colores principales de la aplicación -->
+        <item name="colorPrimary">@color/toolbarBackgroundColor</item>
+        <item name="colorOnPrimary">@color/toolbarTextColor</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
+
+        <!-- Color de fondo predeterminado para CardView -->
+        <item name="cardBackgroundColor">@color/cardBackgroundColor</item>
+
+
+    </style>
+
+
+</resources>

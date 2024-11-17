@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores personalizables -->
+    <color name="statusBarColor">#800080</color>
+    <color name="toolbarColor">#D3D3D3</color>
+    <color name="toolbarBackgroundColor">#000000</color>
+    <color name="toolbarTextColor">#D3D3D3</color>
+    <color name="cardBackgroundColor">#F5E8D3</color>
+    <color name="recyclerBackgroundColor">#F5F5F5</color>
+</resources>

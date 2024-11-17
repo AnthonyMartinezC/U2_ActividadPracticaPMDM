@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_recargar"
+        android:title="@string/menu_recargar"
+        android:icon="@drawable/ic_recarga"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_limpiar"
+        android:title="@string/menu_limpiar"
+        android:icon="@drawable/ic_limpiar"
+        app:showAsAction="never" />
+
+
+
+</menu>
